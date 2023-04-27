@@ -8,6 +8,7 @@ export default {
       // card: '#D1D1D1',
       // 'text-base': '#EAF2EF',
       light: '#F6F4F1',
+      hover: '#D6CAC0',
     },
     extend: {},
   },
