@@ -12,11 +12,11 @@ const Hero = () => {
             Discover Your Perfect Style
           </h3>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center lg:justify-start">
           <h1 className="pt-2 text-4xl">Expert Hair Care Tailored To You.</h1>
         </div>
         <div className="flex justify-center">
-          <p className="py-4 text-sm ">
+          <p className="py-4 text-sm max-w-lg">
             Discover the artistry of Katie! A talented stylist with an eye for
             detail and a passion for creating unique, beautiful hairstyles that
             bring out your natural beauty!
