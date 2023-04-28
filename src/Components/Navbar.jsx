@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 flex items-center justify-between px-4 text-lg z-50w-full bg-secondary text-light h-14">
+    <div className="sticky top-0 flex items-center justify-between px-4 text-lg z-50 w-full bg-secondary text-light h-14">
       <Link
         className="w-40 text-3xl font-bold text-white hover:cursor-pointer"
         to="hero"
