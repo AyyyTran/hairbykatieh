@@ -6,7 +6,7 @@ import Woman from '../Images/woman.jpg';
 const Hero = () => {
   return (
     <div className="text-grey lg:flex lg:justify-center">
-      <div className="p-8">
+      <div className="p-8 lg:pt-16">
         <div className="flex justify-start sm:justify-center lg:justify-start">
           <h3 className="pt-4 text-xl font-bold text-primary">
             Discover Your Perfect Style
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="p-8">
+      <div className="p-8 lg:pt-16">
         <div className="flex justify-center">
           <img
             src={Woman}
