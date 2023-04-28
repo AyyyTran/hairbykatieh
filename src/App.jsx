@@ -1,18 +1,19 @@
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
+import Navbar from './Pages/Navbar';
+import Hero from './Pages/Hero';
+import About from './Pages/About';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      {/* about */}
-      {/* education */}
-      {/* locatio */}
-      {/* testimonials */}
-      {/* services */}
-      {/* contact */}
-      {/* footer */}
+      <About />
+      {/* <Education/> */}
+      {/* <Location/> */}
+      {/* <Testimonials/> */}
+      {/* <Services/> */}
+      {/* <Contact/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
