@@ -5,7 +5,7 @@ import InfoSection from '../Components/InfoSection';
 
 const About = () => {
   return (
-    <div className="about scroll-m-0">
+    <div className="about">
       <Title />
       <ImageSection />
       <InfoSection />
