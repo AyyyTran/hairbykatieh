@@ -1,13 +1,12 @@
 import React from 'react';
-import Woman from '../Images/woman.jpg';
 
-const ImageSection = () => {
+const ImageSection = (data) => {
   return (
     <div className="p-8 lg:pt-16">
       <div className="flex justify-center">
         <img
-          src={Woman}
-          alt="Hero Image"
+          src={data.imageURL}
+          alt={data.imageDesc}
           className="absolute w-60 h-60 mt-6 ml-4 rounded-2xl object-cover"
         />
       </div>
