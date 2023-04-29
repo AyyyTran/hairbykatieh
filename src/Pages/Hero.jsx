@@ -9,10 +9,13 @@ const Hero = () => {
         subheading={HeroData.subheading}
         heading={HeroData.heading}
         description={HeroData.description}
+        imageStart={HeroData.imageStart}
+        icons={HeroData.icons}
       />
       <ImageSection
         imageURL={HeroData.imageURL}
         imageDesc={HeroData.imageDesc}
+        imageStart={HeroData.imageStart}
       />
     </div>
   );

@@ -7,6 +7,7 @@ export const AboutData = {
     'Meet Katie, a passionate and experienced hairdresser dedicated to providing personalized service and a comfortable atmosphere. She specializes in blondes and brunettes and lived in colour.',
   imageURL: Woman,
   imageDesc: 'Woman',
+  icons: false,
 };
 
 export default AboutData;

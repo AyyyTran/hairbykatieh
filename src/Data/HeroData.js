@@ -7,6 +7,7 @@ export const HeroData = {
     'Discover the artistry of Katie! A talented stylist with an eye for detail and a passion for creating unique, beautiful hairstyles that bring out your natural beauty!',
   imageURL: Woman,
   imageDesc: 'Woman',
+  icons: true,
 };
 
 export default HeroData;
