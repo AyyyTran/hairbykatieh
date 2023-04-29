@@ -5,7 +5,7 @@ import Email from '../Images/email.png';
 const InfoSection = (data) => {
   return (
     <>
-      <div className="p-8 lg:pt-16">
+      <div className="p-8 lg:pt-8">
         <div className="flex justify-start sm:justify-center lg:justify-start">
           <h3 className="pt-4 text-xl font-bold text-primary">
             {data.subheading}
