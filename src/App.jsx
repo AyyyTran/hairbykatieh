@@ -6,6 +6,7 @@ import Location from './Pages/Location';
 import Footer from './Pages/Footer';
 import Testimonials from './Pages/Testimonials';
 import Contact from './Pages/Contact';
+import Services from './Pages/Services';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Education />
       <Location />
       <Testimonials />
-      {/* <Services/> */}
+      <Services />
       <Contact />
       <Footer />
     </div>
