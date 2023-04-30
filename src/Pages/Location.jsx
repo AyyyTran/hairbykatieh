@@ -1,8 +1,8 @@
 import React from 'react';
-import ImageSection from '../Components/ImageSection';
 import InfoSection from '../Components/InfoSection';
 import LocationData from '../Data/LocationData';
 import Title from '../Components/Title';
+import MapSection from '../Components/MapSection';
 
 const Location = () => {
   return (
@@ -16,11 +16,7 @@ const Location = () => {
           imageStart={LocationData.imageStart}
           icons={LocationData.icons}
         />
-        {/* <ImageSection
-          imageURL={LocationData.imageURL}
-          imageDesc={LocationData.imageDesc}
-          imageStart={LocationData.imageStart}
-        /> */}
+        <MapSection />
       </div>
     </div>
   );

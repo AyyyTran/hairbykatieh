@@ -2,6 +2,7 @@
 npm i
 npm install react-icons --save
 npm install react-scroll
+npm i -S @react-google-maps/api
 
 To Do:
 add unerline and hover to navbar
