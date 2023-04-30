@@ -1,6 +1,7 @@
 import Woman from '../Images/woman.jpg';
 
 export const AboutData = {
+  title: 'About',
   subheading: 'Welcome to Hair.byKatieH',
   heading: 'Your Hair Care Needs Are Our Top Priority.',
   description:
