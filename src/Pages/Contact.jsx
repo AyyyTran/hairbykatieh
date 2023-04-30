@@ -6,7 +6,7 @@ import Title from '../Components/Title';
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact my-64" id="contact">
       <Title title={ContactInfoData.title} />
       <div className="flex flex-col justify-center items-center mb-8 lg:flex-row">
         <InfoSection

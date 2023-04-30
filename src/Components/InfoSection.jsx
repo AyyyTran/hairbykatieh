@@ -1,6 +1,7 @@
 import React from 'react';
 import Instagram from '../Images/instagram.svg';
 import Email from '../Images/email.png';
+import {Link} from 'react-scroll';
 
 const InfoSection = (data) => {
   return (
@@ -18,17 +19,36 @@ const InfoSection = (data) => {
           <p className="py-4 text-sm max-w-lg">{data.description}</p>
         </div>
         <div className="flex items-center justify-center lg:justify-start">
-          <button className="w-32 py-2 font-bold rounded-3xl bg-primary text-light focus:outline-none transition ease-in-out hover:scale-105">
-            Book Now!
-          </button>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <button className="w-32 py-2 font-bold rounded-3xl bg-primary text-light focus:outline-none transition ease-in-out hover:scale-105">
+              Book Now!
+            </button>
+          </Link>
           {data.icons && (
             <div className="flex justify-center">
-              <div className="pl-4 transition ease-in-out hover:scale-110 cursor-pointer">
+              <a
+                href="https://instagram.com/hair.bykatieh?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                className="pl-4 transition ease-in-out hover:scale-110 cursor-pointer "
+              >
                 <img className="h-8 w-7" src={Instagram} alt="Instagram Icon" />
-              </div>
-              <div className="px-1 transition ease-in-out hover:scale-110 cursor-pointer">
+              </a>
+              <Link
+                className="pl-4 transition ease-in-out hover:scale-110 cursor-pointer "
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
                 <img className="h-8 w-7" src={Email} alt="Email Icon" />
-              </div>
+              </Link>
             </div>
           )}
         </div>

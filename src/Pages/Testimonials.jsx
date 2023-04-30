@@ -5,7 +5,7 @@ import CardData1, {CardData2, CardData3} from '../Data/CardData';
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className="testimonials">
       <Title title={CardData1.title} />
       <div className="flex flex-col justify-center items-center py-8 md:flex-row ">
         <CardSection

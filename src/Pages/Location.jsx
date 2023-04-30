@@ -6,7 +6,7 @@ import Title from '../Components/Title';
 
 const Location = () => {
   return (
-    <div className="text-grey about">
+    <div className="text-grey location">
       <Title title={LocationData.title} />
       <div className="text-grey lg:flex lg:justify-center">
         <InfoSection

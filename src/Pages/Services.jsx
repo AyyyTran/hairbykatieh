@@ -8,7 +8,7 @@ import Title from '../Components/Title';
 
 const Services = () => {
   return (
-    <div>
+    <div className="services">
       <Title title={ServicesTitleData.title} />
       <div className="flex justify-center">
         <ServicesSection
