@@ -16,11 +16,11 @@ const Location = () => {
           imageStart={LocationData.imageStart}
           icons={LocationData.icons}
         />
-        <ImageSection
+        {/* <ImageSection
           imageURL={LocationData.imageURL}
           imageDesc={LocationData.imageDesc}
           imageStart={LocationData.imageStart}
-        />
+        /> */}
       </div>
     </div>
   );

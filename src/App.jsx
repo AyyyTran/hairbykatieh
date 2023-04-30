@@ -4,6 +4,8 @@ import About from './Pages/About';
 import Education from './Pages/Education';
 import Location from './Pages/Location';
 import Footer from './Pages/Footer';
+import Testimonials from './Pages/Testimonials';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
@@ -12,10 +14,10 @@ function App() {
       <Hero />
       <About />
       <Education />
-      {/* <Location /> */}
-      {/* <Testimonials/> */}
+      <Location />
+      <Testimonials />
       {/* <Services/> */}
-      {/* <Contact/> */}
+      <Contact />
       <Footer />
     </div>
   );
