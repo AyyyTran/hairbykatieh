@@ -7,7 +7,7 @@ import {Link} from 'react-scroll';
 const ContactSection = (data) => {
   return (
     <div>
-      <div className="bg-secondary rounded-xl text-light text-lg md:text-sm flex w-fit p-12">
+      <div className="bg-secondary rounded-xl text-light text-lg lg:text-xl flex w-fit p-12">
         <div className="flex flex-col items-center flex-wrap">
           <a
             href="https://instagram.com/hair.bykatieh?igshid=YmMyMTA2M2Y="

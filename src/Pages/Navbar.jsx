@@ -11,18 +11,18 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 flex items-center justify-between px-4 text-lg z-50 w-full bg-secondary text-light h-14">
+    <div className="sticky top-0 flex items-center justify-between px-4 text-lg lg:text-xl z-50 w-full bg-secondary text-light h-14 lg:h-20">
       <Link
         className="w-40 text-3xl font-bold text-white hover:cursor-pointer "
         to="hero"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-100}
         duration={500}
       >
         hair.bykatieh
       </Link>
-      <ul className="hidden lg:flex lg:items-center ">
+      <ul className="hidden lg:flex lg:items-center  ">
         <li className="p-4 hover:cursor-pointer  ">
           <Link
             to="about"
@@ -102,7 +102,7 @@ const Navbar = () => {
             to="hero"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-75}
             duration={500}
             onClick={handleNav}
           >
@@ -118,7 +118,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-75}
               duration={500}
               onClick={handleNav}
             >
@@ -130,7 +130,7 @@ const Navbar = () => {
               to="location"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-75}
               duration={500}
               onClick={handleNav}
             >
@@ -142,7 +142,7 @@ const Navbar = () => {
               to="testimonials"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-75}
               duration={500}
               onClick={handleNav}
             >
@@ -154,7 +154,7 @@ const Navbar = () => {
               to="services"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-75}
               duration={500}
               onClick={handleNav}
             >
@@ -167,7 +167,7 @@ const Navbar = () => {
               to="contact"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-75}
               duration={500}
               onClick={handleNav}
             >

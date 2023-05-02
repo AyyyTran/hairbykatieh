@@ -8,15 +8,19 @@ const InfoSection = (data) => {
     <>
       <div className="p-8 lg:pt-8">
         <div className="flex justify-start sm:justify-center lg:justify-start">
-          <h3 className="pt-4 text-xl font-bold text-primary">
+          <h3 className="pt-4 text-xl font-bold text-primary lg:text-3xl">
             {data.subheading}
           </h3>
         </div>
         <div className="flex justify-center lg:justify-start">
-          <h1 className="pt-2 text-4xl max-w-lg">{data.heading}</h1>
+          <h1 className="pt-2 text-4xl max-w-lg lg:max-w-2xl lg:text-5xl">
+            {data.heading}
+          </h1>
         </div>
         <div className="flex justify-center">
-          <p className="py-4 text-sm max-w-lg">{data.description}</p>
+          <p className="py-4 text-sm max-w-lg lg:max-w-2xl lg:text-xl">
+            {data.description}
+          </p>
         </div>
         <div className="flex items-center justify-center lg:justify-start">
           <Link
