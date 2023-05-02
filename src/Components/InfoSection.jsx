@@ -8,7 +8,7 @@ const InfoSection = (data) => {
     <>
       <div className="p-8 lg:pt-8">
         <div className="flex justify-start sm:justify-center lg:justify-start">
-          <h3 className="pt-4 text-xl font-bold text-primary lg:text-3xl">
+          <h3 className="pt-4 text-2xl font-bold text-primary lg:text-3xl">
             {data.subheading}
           </h3>
         </div>
@@ -18,11 +18,11 @@ const InfoSection = (data) => {
           </h1>
         </div>
         <div className="flex justify-center">
-          <p className="py-4 text-sm max-w-lg lg:max-w-2xl lg:text-xl">
+          <p className="py-4 text-lg max-w-lg lg:max-w-2xl lg:text-xl">
             {data.description}
           </p>
         </div>
-        <div className="flex items-center justify-center lg:justify-start">
+        <div className="flex items-center justify-center lg:justify-start text-lg">
           <Link
             to="contact"
             spy={true}

@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 flex items-center justify-between px-4 text-lg lg:text-xl z-50 w-full bg-secondary text-light h-14 lg:h-20">
+    <div className="sticky top-0 flex items-center justify-between px-4 text-lg lg:text-xl z-50 w-full  max-w-full  bg-secondary text-light h-14 lg:h-20">
       <Link
         className="w-40 text-3xl font-bold text-white hover:cursor-pointer "
         to="hero"
@@ -81,10 +81,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <div
-        className="block hover:cursor-pointer  lg:hidden"
-        onClick={handleNav}
-      >
+      <div className="hover:cursor-pointer lg:hidden" onClick={handleNav}>
         <AiOutlineMenu size={40} />
       </div>
       {/* 303036 */}
