@@ -6,7 +6,7 @@ import {Link} from 'react-scroll';
 const InfoSection = (data) => {
   return (
     <>
-      <div className="p-8 lg:pt-8">
+      <div className="p-8 pt-16">
         <div className="flex justify-start sm:justify-center lg:justify-start">
           <h3 className="pt-4 text-2xl font-bold text-primary lg:text-3xl">
             {data.subheading}
