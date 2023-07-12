@@ -1,5 +1,5 @@
 import React, {useMemo} from 'react';
-import {GoogleMap, useLoadScript, Marker} from '@react-google-maps/api';
+import {GoogleMap, useLoadScript, MarkerF} from '@react-google-maps/api';
 
 const MapSection = () => {
   const {isLoaded, loadError} = useLoadScript({
@@ -31,7 +31,7 @@ const MapSection = () => {
         },
       ],
     };
-
+    const markerPosition = center;
     return (
       <div className="flex justify-center bg-primary py-4">
         <GoogleMap
@@ -39,7 +39,9 @@ const MapSection = () => {
           center={center}
           options={mapOptions}
           mapContainerClassName="w-96 h-96"
-        ></GoogleMap>
+        >
+          <MarkerF position={markerPosition} />
+        </GoogleMap>
       </div>
     );
   }
