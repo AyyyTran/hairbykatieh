@@ -23,7 +23,7 @@ const Navbar = () => {
         hair.bykatieh
       </Link>
       <ul className="hidden lg:flex lg:items-center  ">
-        <li className="p-4 hover:cursor-pointer  ">
+        <li className="p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110 ">
           <Link
             to="about"
             spy={true}
@@ -34,7 +34,7 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li className="p-4 hover:cursor-pointer ">
+        <li className="p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110">
           <Link
             to="location"
             spy={true}
@@ -45,7 +45,7 @@ const Navbar = () => {
             Location
           </Link>
         </li>
-        <li className="p-4 hover:cursor-pointer  ">
+        <li className="p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110 ">
           <Link
             to="testimonials"
             spy={true}
@@ -56,7 +56,7 @@ const Navbar = () => {
             Testimonials
           </Link>
         </li>
-        <li className="p-4 hover:cursor-pointer  ">
+        <li className="p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110 ">
           <Link
             to="services"
             spy={true}
@@ -110,7 +110,7 @@ const Navbar = () => {
           </div>
         </div>
         <ul className="uppercase">
-          <li className="flex justify-center p-4 hover:cursor-pointer  ">
+          <li className="flex justify-center p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110 ">
             <Link
               to="about"
               spy={true}
@@ -122,7 +122,7 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className="flex justify-center p-4 hover:cursor-pointer ">
+          <li className="flex justify-center p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110">
             <Link
               to="location"
               spy={true}
@@ -134,7 +134,7 @@ const Navbar = () => {
               Location
             </Link>
           </li>
-          <li className="flex justify-center p-4 hover:cursor-pointer ">
+          <li className="flex justify-center p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110">
             <Link
               to="testimonials"
               spy={true}
@@ -146,7 +146,7 @@ const Navbar = () => {
               Testimonials
             </Link>
           </li>
-          <li className="flex justify-center p-4 hover:cursor-pointer ">
+          <li className="flex justify-center p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110">
             <Link
               to="services"
               spy={true}
