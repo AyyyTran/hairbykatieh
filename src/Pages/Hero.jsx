@@ -5,7 +5,7 @@ import HeroData from '../Data/HeroData';
 import {Fade} from 'react-reveal';
 const Hero = () => {
   return (
-    <div className="text-grey lg:flex lg:justify-center lg:items-center lg:h-[75vh] hero  ">
+    <div className="text-grey lg:flex lg:justify-center lg:items-center lg:h-[100vh] hero  ">
       <Fade down>
         <InfoSection
           subheading={HeroData.subheading}

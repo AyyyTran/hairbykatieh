@@ -2,14 +2,10 @@
 npm i
 npm install react-icons --save
 npm install react-scroll
-npm i -S @react-google-maps/api
+npm i -S @react-google-maps/api --legacy-peer-deps
 npm install react-reveal --save --legacy-peer-deps
 
-npm install --legacy-peer-deps in Vercel
+To Start Code Locally:
+npm run dev
 
-To Do:
-add unerline and hover to navbar
-add map to location
-add services
-remove book now off about/ location?
-maybne fix servcices small media query
+npm install --legacy-peer-deps in Vercel

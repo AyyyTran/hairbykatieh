@@ -2,9 +2,9 @@ import React, {useMemo} from 'react';
 import {GoogleMap, useLoadScript, MarkerF} from '@react-google-maps/api';
 
 const MapSection = () => {
+  const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
   const {isLoaded, loadError} = useLoadScript({
-    // googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
-    googleMapsApiKey: 'AIzaSyDa7HO7FT5xZ5wLdM1Jn_JGxr9UCeJJ-5o',
+    googleMapsApiKey: apiKey,
   });
   if (loadError) return 'Error loading maps';
   if (!isLoaded) {
