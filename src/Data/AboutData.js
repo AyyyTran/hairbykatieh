@@ -1,4 +1,4 @@
-import Woman from '../Images/woman.jpg';
+import Profile from '../Images/profile.png';
 
 export const AboutData = {
   title: 'About',
@@ -6,8 +6,8 @@ export const AboutData = {
   heading: 'Your Hair Care Needs Are Our Top Priority.',
   description:
     'Meet Katie, a passionate and experienced hairdresser dedicated to providing personalized service and a comfortable atmosphere. She specializes in blondes and brunettes and lived in colour.',
-  imageURL: Woman,
-  imageDesc: 'Woman',
+  imageURL: Profile,
+  imageDesc: 'Profile of Katie',
   icons: false,
 };
 

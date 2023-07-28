@@ -1,12 +1,12 @@
-import Woman from '../Images/woman.jpg';
+import Award from '../Images/award.png';
 
 export const EducationData = {
   subheading: 'Education and Experience',
   heading: 'Recognition Of Excellence',
   description:
     'Katie has been recognized for her excellence in the Riverside College and has received awards. Katie has cared for hundreds of clients, each with unique hair care needs and preferences. ',
-  imageURL: Woman,
-  imageDesc: 'Woman',
+  imageURL: Award,
+  imageDesc: 'Katies Award',
   icons: false,
 };
 

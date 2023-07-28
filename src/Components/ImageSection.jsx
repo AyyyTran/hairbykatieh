@@ -8,11 +8,11 @@ const ImageSection = (data) => {
           <img
             src={data.imageURL}
             alt={data.imageDesc}
-            className="absolute w-60 h-60 lg:w-80 lg:h-80  mt-6 ml-4 rounded-2xl object-cover"
+            className="absolute w-60 h-60 lg:w-96 lg:h-96  mt-6 ml-4 rounded-2xl object-cover"
           />
         </div>
         <div className="flex justify-center">
-          <div className=" w-60 h-60 lg:w-80 lg:h-80 rounded-2xl mr-8 bg-primary"></div>
+          <div className=" w-60 h-60 lg:w-96 lg:h-96 rounded-2xl mr-8 bg-primary"></div>
         </div>
       </div>
     </>
