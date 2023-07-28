@@ -53,7 +53,7 @@ const Navbar = () => {
             offset={-100}
             duration={500}
           >
-            Testimonials
+            Reviews
           </Link>
         </li>
         <li className="p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110 ">

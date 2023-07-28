@@ -1,7 +1,7 @@
 import Woman from '../Images/woman.jpg';
 
 export const CardData1 = {
-  title: 'Testimonials',
+  title: 'Reviews',
   quote:
     '"I have been going to Katie for years, and she always knows exactly what to do with my hair. I leave feeling confident and beautiful every time!"',
   name: '- John',

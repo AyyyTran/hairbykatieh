@@ -1,4 +1,4 @@
-import Award from '../Images/award.png';
+import Award from '../Images/pose2.png';
 
 export const EducationData = {
   subheading: 'Education and Experience',
