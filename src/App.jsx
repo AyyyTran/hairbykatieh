@@ -7,6 +7,7 @@ import Footer from './Pages/Footer';
 import Testimonials from './Pages/Testimonials';
 import Contact from './Pages/Contact';
 import Services from './Pages/Services';
+import Gallery from './Pages/Gallery';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Education />
       <Location />
       <Testimonials />
+      <Gallery />
       <Services />
       <Contact />
       <Footer />
