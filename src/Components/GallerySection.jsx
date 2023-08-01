@@ -48,7 +48,13 @@ const GallerySection = () => {
 
   return (
     <div className="w-full max-w-screen-md mx-auto">
-      <Carousel showArrows showStatus={false} infiniteLoop>
+      <Carousel
+        showArrows
+        showStatus={false}
+        infiniteLoop
+        autoPlay
+        interval={3000}
+      >
         {images.map((image, index) => (
           <div key={index}>
             <img
