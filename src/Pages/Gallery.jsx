@@ -1,15 +1,16 @@
 import React from 'react';
 import {Fade} from 'react-reveal';
 import Title from '../Components/Title';
-import GalleryData1, {GalleryData2, GalleryData3} from '../Data/GalleryData';
+import GalleryData1 from '../Data/GalleryData';
+import GallerySection from '../Components/GallerySection';
 
 const Gallery = () => {
   return (
-    <div className="text-grey about">
+    <div className="text-grey gallery">
       <Title title={GalleryData1.title} />
-      <div div className="text-grey lg:flex lg:justify-center">
-        <Fade up></Fade>
-      </div>
+      <Fade up>
+        <GallerySection />
+      </Fade>
     </div>
   );
 };

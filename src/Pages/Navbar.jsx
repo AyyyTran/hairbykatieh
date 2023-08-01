@@ -58,6 +58,17 @@ const Navbar = () => {
         </li>
         <li className="p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110 ">
           <Link
+            to="gallery"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Gallery
+          </Link>
+        </li>
+        <li className="p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110 ">
+          <Link
             to="services"
             spy={true}
             smooth={true}
@@ -144,6 +155,18 @@ const Navbar = () => {
               onClick={handleNav}
             >
               Testimonials
+            </Link>
+          </li>
+          <li className="flex justify-center p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110">
+            <Link
+              to="gallery"
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+              onClick={handleNav}
+            >
+              Gallery
             </Link>
           </li>
           <li className="flex justify-center p-4 hover:cursor-pointer hover:-translate-y-1 hover:scale-110">
