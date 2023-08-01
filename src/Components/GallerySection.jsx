@@ -1,5 +1,6 @@
 import React from 'react';
-import Carousel from 'better-react-carousel';
+import {Carousel} from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Gallery1 from '../Images/gallery1.png';
 import Gallery2 from '../Images/gallery2.png';
 import Gallery3 from '../Images/gallery3.png';
@@ -47,15 +48,15 @@ const GallerySection = () => {
 
   return (
     <div className="w-full max-w-screen-md mx-auto">
-      <Carousel cols={2} rows={1} loop showArrows autoplay={3000}>
+      <Carousel showArrows showStatus={false} infiniteLoop>
         {images.map((image, index) => (
-          <Carousel.Item key={index}>
+          <div key={index}>
             <img
               src={image.url}
               alt={`Image ${index}`}
               className="w-full max-w-full max-h-full rounded-xl"
             />
-          </Carousel.Item>
+          </div>
         ))}
       </Carousel>
     </div>
