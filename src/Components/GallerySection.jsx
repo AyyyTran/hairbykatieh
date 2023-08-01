@@ -47,7 +47,7 @@ const GallerySection = () => {
 
   return (
     <div className="w-full max-w-screen-md mx-auto">
-      <Carousel cols={2} rows={1} loop showArrows autoplay={3000} scrollSnap>
+      <Carousel cols={2} rows={1} loop showArrows autoplay={3000}>
         {images.map((image, index) => (
           <Carousel.Item key={index}>
             <img
