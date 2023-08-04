@@ -1,26 +1,26 @@
-import Woman from '../Images/woman.jpg';
+import Woman from '../Images/gallery8.png';
 
 export const CardData1 = {
   title: 'Reviews',
   quote:
-    '"I have been going to Katie for years, and she always knows exactly what to do with my hair. I leave feeling confident and beautiful every time!"',
-  name: '- John',
+    '"Katie loves what she does. She is creative, detail oriented and personable! 5 stars!"',
+  name: '- Tori',
   imageURL: Woman,
   imageDesc: 'Woman',
 };
 
 export const CardData2 = {
   quote:
-    '"I had a major hair disaster right before a big event, but Katie saved the day! She worked her magic and I got so many compliments on my hair that night. Thank you, Katie!"',
-  name: '- Coop',
+    '"Best hairstylist! Always makes me feel amazing about myslelf and knows what I need."',
+  name: '- Sammie',
   imageURL: Woman,
   imageDesc: 'Woman',
 };
 
 export const CardData3 = {
   quote:
-    '"Katie takes the time to listen to what you want, and then transforms your hair into something even better than you imagined. I am so happy to have found her!"',
-  name: '- Cappa',
+    '"Katie is absolutely amazing at what she does, my favourite hairdresser of all time!"',
+  name: '- Caitlyn',
   imageURL: Woman,
   imageDesc: 'Woman',
 };

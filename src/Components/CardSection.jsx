@@ -3,7 +3,7 @@ import React from 'react';
 const CardSection = (data) => {
   return (
     <div className="bg-secondary rounded-lg text-light flex flex-col w-64 h-fit lg:w-72 items-center m-4 shadow-xl transition ease-in-out hover:-translate-y-1 hover:scale-110">
-      <div>
+      {/* <div>
         <div className="rounded-full p-4">
           <img
             className="w-24 h-24 lg:w-32 lg:h-32 rounded-full object-cover"
@@ -11,8 +11,8 @@ const CardSection = (data) => {
             alt={data.imageDesc}
           />
         </div>
-      </div>
-      <div className="p-4">
+      </div> */}
+      <div className="p-4 pt-8">
         <blockquote>
           <p className="text-lg lg:text-xl text-gray-900">{data.quote}</p>
         </blockquote>

@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <div className="testimonials">
       <Title title={CardData1.title} />
-      <div className="flex flex-col justify-center items-center py-8 md:flex-row ">
+      <div className="flex flex-col justify-center items-center py-8 lg:flex-row ">
         <CardSection
           quote={CardData1.quote}
           imageURL={CardData1.imageURL}
