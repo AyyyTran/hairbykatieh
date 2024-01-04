@@ -11,7 +11,7 @@ export const CardData1 = {
 
 export const CardData2 = {
   quote:
-    '"Best hairstylist! Always makes me feel amazing about myslelf and knows what I need."',
+    '"Best hairstylist! Always makes me feel amazing about myself and knows what I need."',
   name: '- Sammie',
   imageURL: Woman,
   imageDesc: 'Woman',
